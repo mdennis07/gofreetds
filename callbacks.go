@@ -5,10 +5,6 @@ import (
 	"sync"
 )
 
-/*
-#include <sybfront.h>
-#include <sybdb.h>
-*/
 import "C"
 
 var lastError string
